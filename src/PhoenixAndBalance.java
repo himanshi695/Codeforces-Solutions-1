@@ -1,5 +1,6 @@
 import java.util.*;
 import java.io.*;
+import java.lang.*;
 
 public class PhoenixAndBalance {
     public static void main(String[] args) throws Exception {
@@ -24,7 +25,10 @@ class FastReader {
     BufferedReader br;
     StringTokenizer st;
 
-    public FastReader() { br = new BufferedReader(new InputStreamReader(System.in)); }
+    public FastReader() {
+        br = new BufferedReader(new InputStreamReader(System.in));
+    }
+
     String next() {
         while (st == null || !st.hasMoreElements()) {
             try {
@@ -35,9 +39,19 @@ class FastReader {
         }
         return st.nextToken();
     }
-    int nextInt() { return Integer.parseInt(next()); }
-    long nextLong() { return Long.parseLong(next()); }
-    double nextDouble() { return Double.parseDouble(next()); }
+
+    int nextInt() {
+        return Integer.parseInt(next());
+    }
+
+    long nextLong() {
+        return Long.parseLong(next());
+    }
+
+    double nextDouble() {
+        return Double.parseDouble(next());
+    }
+
     String nextLine() {
         String str = "";
         try {
