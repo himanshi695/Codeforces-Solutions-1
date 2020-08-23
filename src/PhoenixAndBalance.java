@@ -1,7 +1,5 @@
 import java.util.*;
 import java.io.*;
-import java.lang.*;
-
 public class PhoenixAndBalance {
     public static void main(String[] args) throws Exception {
         FastReader sc = new FastReader();
