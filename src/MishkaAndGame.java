@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.*;
 
 public class MishkaAndGame {
     public static void main(String[] args) {
