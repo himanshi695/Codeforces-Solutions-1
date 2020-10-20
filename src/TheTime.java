@@ -14,8 +14,6 @@ public class TheTime {
         String y= String.valueOf(s.charAt(4));
         String m= x.concat(y);
         int w= Integer.parseInt(m);
-        //System.out.println(l);
-        //System.out.println(w);
         int res=(l*60+w+a)%1440;
         String form = String.format("%02d" + ":" + "%02d",res/60,res%60);
         System.out.println(form);
