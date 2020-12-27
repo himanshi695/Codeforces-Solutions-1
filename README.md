@@ -1,2 +1,2 @@
 # Codeforces-Solutions-1
-Solution of the problens of Codeforces purely using Java.
+Solution of the problems of Codeforces purely using Java.
