@@ -31,7 +31,7 @@ public class SpaceNavigation {
                 if (Math.abs(px)<=countl){
                     x=true;
                 }
-            } else if (px>0){
+            } else if (px>=0){
                 if (px<=countr){
                     x=true;
                 }
@@ -40,7 +40,7 @@ public class SpaceNavigation {
                 if (Math.abs(py)<=countd){
                     y=true;
                 }
-            } else if (py>0){
+            } else if (py>=0){
                 if (py<=countu){
                     y=true;
                 }
