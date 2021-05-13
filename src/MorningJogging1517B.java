@@ -10,10 +10,10 @@ public class MorningJogging1517B {
             int n=sc.nextInt(); int m=sc.nextInt();
             sc.nextLine();
             int l[][]=new int[n][m];
-            for(int i=0;i<n;i++)
-            {
-                for(int j=0;j<m;j++)
+            for(int i=0;i<n;i++) {
+                for (int j = 0; j < m; j++) {
                     l[i][j] = sc.nextInt();
+                }
             }
             sortRowWise(l);
             for(int j=0;j<m;j++)
@@ -42,9 +42,10 @@ public class MorningJogging1517B {
             }
             for(int i=0;i<n;i++)
             {
-                for(int j=0;j<m;j++)
-                    System.out.print(l[i][j]+" ");
-                System.out.print("\n");
+                for(int j=0;j<m;j++) {
+                    System.out.print(l[i][j] + " ");
+                }
+                System.out.println();
             }
         }
     }
